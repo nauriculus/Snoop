@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --blue: #4887ef;
+  --gray: #e6e6e6;
+  --gray-text: #4887ef;
+  --green: #69cb56;
+  --yellow: #fde931;
+  --red: #e02721;
+  --row-hover: #d8d8d8;
+  --row-selected: #ecf3fe;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #040404;
+  margin-bottom: 20px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.search-bar input[type="text"]:focus {
+  outline: none;
+  border-bottom-color: #007bff;
+  /* Active color */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.table th {
+  font-weight: 600;
+  background-color: #fafafa;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+}
+
+.approved {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pending {
+  background-color: #FFC107;
+  color: white;
+}
+
+.declined {
+  background-color: #F44336;
+  color: white;
+}
+
+/* Table hover and responsiveness */
+@media (hover: hover) {
+  .table tr:hover {
+    background-color: #f5f5f5;
+  }
+}

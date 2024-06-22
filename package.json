@@ -1,0 +1,43 @@
+{
+  "name": "snoop",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.31",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.15",
+    "@solana/wallet-standard": "^1.1.1",
+    "@solana/web3.js": "^1.74.0",
+    "@types/react-modal": "^3.16.1",
+    "@wallet-standard/core": "^1.0.3",
+    "@wallet-standard/experimental": "^0.1.1",
+    "font-awesome": "^4.7.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^5.3.4",
+    "sort-by": "^1.2.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^3.1.0",
+    "daisyui": "^3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
+  }
+}

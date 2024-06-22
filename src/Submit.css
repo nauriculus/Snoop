@@ -1,0 +1,179 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  animation: slide-in 0.5s ease-out forwards;
+  transform: translateY(100%);
+}
+
+.toast.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #555;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #515151;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #a0a0a0;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.no-resize {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+
+
+/* Keyframes for toast animation */
+@keyframes slide-in {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* */
+.custom-modal-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.custom-modal {
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.custom-modal img {
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.submit {
+  font-weight: bold;
+  background-color: #424141;
+  color: #ffffff;
+}
+
+.submit:hover {
+  font-weight: bold;
+  background-color: #6a6a6a;
+  color: #ffffff;
+}
+
+.success-message {
+  font-weight: bold;
+  color: #00cc00;
+}
+
+.error-message {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.close-modal-button {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.close-modal-button:hover {
+  background-color: #ccc;
+}
