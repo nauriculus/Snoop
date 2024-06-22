@@ -18,18 +18,7 @@ The Solana ecosystem, while robust, faces significant challenges regarding timel
 
 In the volatile meme coin market, where scams and rug pulls are frequent, Snoop provides a vital tool for community protection and scam identification.
 
-## Key Features
-
-- **Immediate Scam Reporting**: Enable users to report scams quickly and easily.
-  
-<img width="586" alt="Bildschirmfoto 2024-06-10 um 09 09 21" src="https://github.com/nauriculus/Snoop/assets/24634581/0b36569f-81d6-4d9e-9336-c2706f69c430">
-  
-- **Accessible Reporting Data**: Utilize the data collected through our API to enhance the security protocols of any dApp, making the broader ecosystem safer.
-  
-<img width="1077" alt="Bildschirmfoto 2024-06-10 um 09 08 53" src="https://github.com/nauriculus/Snoop/assets/24634581/8e40f9f7-da2e-40c9-8469-b4272c2872a8">
-
-
-## Detailed Features
+## Features
 
 - **Streamlined Reporting**: Snoop simplifies reporting, allowing users to easily flag suspicious activities. This quick access helps in early detection and prevention of potential scams.
 
