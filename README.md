@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/1161769361334341664/1249610251142168626/snoop.png?ex=6667edbc&is=66669c3c&hm=2e317727e0b1dc4bfc027c79ece260f816af9965341eae561830e8d8fb8616fd&=&format=webp&quality=lossless&width=800&height=800" alt="Logo" width="240">
 
   <p align="center">
     <br>
